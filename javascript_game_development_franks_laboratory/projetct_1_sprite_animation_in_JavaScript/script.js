@@ -1,4 +1,4 @@
-let playerState = 'getHit';
+let playerState = 'idle';
 const dropdown = document.getElementById('animations');
 dropdown.addEventListener('change',function(e){
     playerState = e.target.value;
@@ -10,7 +10,7 @@ const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 
 const playerImage = new Image();
-playerImage.src = 'shadow_dog.png';
+playerImage.src = 'https://raw.githubusercontent.com/Skan90/freeCodeCamp/main/javascript_game_development_franks_laboratory/projetct_1_sprite_animation_in_JavaScript/shadow_dog.png';
 const spriteWidth = 575;
 const spriteHeight = 523;
 
